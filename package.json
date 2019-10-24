@@ -1,0 +1,21 @@
+{
+    "name": "dcb-ug-syntax-theme",
+    "displayName": "dcb-ug-syntax-theme",
+    "description": "Syntax theme with the corporate colors of dev crew brelin",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DCB UG",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DCB UG-color-theme.json"
+            }
+        ]
+    }
+}
