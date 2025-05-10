@@ -46,7 +46,8 @@
         "keyword",
         "storage.modifier",
         "storage.type.class.python",
-        "storage.type.function.python"
+        "storage.type.function.python",
+	"storage.type.function.async.python"
       ],
       "settings": { "foreground": "#e66084" }
     },
@@ -232,6 +233,8 @@
         "entity.name.type.python",
         "entity.name.type",
         "support.type.python",
+	"meta.indexed-name.python",
+        "meta.function.python",
         "meta.function.return-type.python entity.name.type",
         "meta.function.return-type.python entity.name.class",
         "meta.annotation.python entity.name.type",
